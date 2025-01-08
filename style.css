@@ -1,0 +1,59 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row1{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid black;
+  padding: 0 10px;
+}
+.row1-date{
+  margin: 0;
+}
+.calendar-img{
+  height: 30px;
+  border: none;
+  border-left: 2px solid black;
+  margin: 0;
+  padding: 5px 5px;
+  display: flex;
+}
+.calendar-box{
+  border: 2px solid black;
+  text-align: center;
+  width: 188px;
+}
+.calendar-upper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.arrow-icon{
+  width: 20px;
+  height: 20px;
+}
+.days-row{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform:uppercase;
+}
+.dates-grid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 14px;
+  gap: 5px;
+}
+.dates-grid span{
+  margin: 2px;
+  padding: 5px 0;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
